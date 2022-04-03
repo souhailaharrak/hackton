@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: none;
+}
+html{
+    font-size: 63.5%;
+}
+body{
+    background: linear-gradient(145deg,#4D0062 37.45%,#250074 93.82%);
+     overflow: hidden;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    left: 0;
+    padding: 2rem 5rem;;
+}
+.fa-shopping-cart{
+color: #fff;
+font-size: 3.5rem;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li a{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: .5rem 2rem;
+    border-radius: 5rem;
+    transition: .2s linear;
+}
+nav ul li a:hover{
+    color: #333;
+    letter-spacing: .5rem;
+    background: #fff;
+}
+.logo  h1{
+font-size: 3rem;
+display: inline;
+color: #fff;
+}
+.span{
+    color:#250074;
+}
+.content{
+   color:#fff;
+   padding-top: 20rem;
+   font-size: italic;
+   width: 40vw;
+}
+.image img{
+width: 40vw;
+margin-top:8rem;
+}
+.content h1{
+    font-size: 5.5rem;
+}
+.content p{
+    font-size:1.5rem;
+    margin: 2rem 0;
+
+}
+.buttons button{
+    outline: none;
+    margin-top:5rem ;
+    border: none;
+    background: white;
+transition: .2s linear;
+cursor: pointer;
+border-radius: 5rem;
+font-weight: bold;
+color: #333;
+height: 4rem;
+width: 15rem;
+}
+.buttons button:hover{
+    color: white;
+    background: none;
+    border: .2rem solid white;
+    letter-spacing: .2s;
+}
+.buttons a:nth-child(2) button{
+
+    margin-left: 2rem;
+}
+.icons{
+    padding-top: 5rem;
+}
+.icons a{
+    font-size: 2rem;
+height: 4rem;
+width: 4rem;
+line-height: 4rem;
+background-color: white;
+color: #333;
+border-radius: 5rem;
+text-align: center;
+margin-left:2rem;
+
+}
+.icons a:hover{
+    color: white;
+    background: none;
+    border: .2rem solid white;
+}
